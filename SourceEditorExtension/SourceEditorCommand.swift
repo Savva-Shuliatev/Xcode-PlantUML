@@ -15,6 +15,9 @@ final class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     with invocation: XCSourceEditorCommandInvocation,
     completionHandler: @escaping (Error?) -> Void
   ) -> Void {
+
+    print("commandIdentifier = \(invocation.commandIdentifier)")
+    print("buffer = \(invocation.buffer)")
     // Implement your command here, invoking the completion handler when done. Pass it nil on success, and an NSError on failure.
     completionHandler(nil)
   }
