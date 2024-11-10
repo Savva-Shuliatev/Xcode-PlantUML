@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4D8691E32CE155CB0068464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8691C92CE155CA0068464A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8691D02CE155CA0068464A;
+			remoteInfo = "Xcode-PlantUML";
+		};
+		4D8691ED2CE155CB0068464A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8691C92CE155CA0068464A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8691D02CE155CA0068464A;
+			remoteInfo = "Xcode-PlantUML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D8691D12CE155CA0068464A /* Xcode-PlantUML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode-PlantUML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8691E22CE155CB0068464A /* Xcode-PlantUMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode-PlantUMLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8691EC2CE155CB0068464A /* Xcode-PlantUMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode-PlantUMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4D8691D32CE155CA0068464A /* Xcode-PlantUML */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xcode-PlantUML";
+			sourceTree = "<group>";
+		};
+		4D8691E52CE155CB0068464A /* Xcode-PlantUMLTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xcode-PlantUMLTests";
+			sourceTree = "<group>";
+		};
+		4D8691EF2CE155CB0068464A /* Xcode-PlantUMLUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Xcode-PlantUMLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8691CE2CE155CA0068464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691DF2CE155CB0068464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691E92CE155CB0068464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8691C82CE155CA0068464A = {
+			isa = PBXGroup;
+			children = (
+				4D8691D32CE155CA0068464A /* Xcode-PlantUML */,
+				4D8691E52CE155CB0068464A /* Xcode-PlantUMLTests */,
+				4D8691EF2CE155CB0068464A /* Xcode-PlantUMLUITests */,
+				4D8691D22CE155CA0068464A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8691D22CE155CA0068464A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8691D12CE155CA0068464A /* Xcode-PlantUML.app */,
+				4D8691E22CE155CB0068464A /* Xcode-PlantUMLTests.xctest */,
+				4D8691EC2CE155CB0068464A /* Xcode-PlantUMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8691D02CE155CA0068464A /* Xcode-PlantUML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8691F62CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUML" */;
+			buildPhases = (
+				4D8691CD2CE155CA0068464A /* Sources */,
+				4D8691CE2CE155CA0068464A /* Frameworks */,
+				4D8691CF2CE155CA0068464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4D8691D32CE155CA0068464A /* Xcode-PlantUML */,
+			);
+			name = "Xcode-PlantUML";
+			packageProductDependencies = (
+			);
+			productName = "Xcode-PlantUML";
+			productReference = 4D8691D12CE155CA0068464A /* Xcode-PlantUML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D8691E12CE155CB0068464A /* Xcode-PlantUMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8691F92CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUMLTests" */;
+			buildPhases = (
+				4D8691DE2CE155CB0068464A /* Sources */,
+				4D8691DF2CE155CB0068464A /* Frameworks */,
+				4D8691E02CE155CB0068464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8691E42CE155CB0068464A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4D8691E52CE155CB0068464A /* Xcode-PlantUMLTests */,
+			);
+			name = "Xcode-PlantUMLTests";
+			packageProductDependencies = (
+			);
+			productName = "Xcode-PlantUMLTests";
+			productReference = 4D8691E22CE155CB0068464A /* Xcode-PlantUMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D8691EB2CE155CB0068464A /* Xcode-PlantUMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8691FC2CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUMLUITests" */;
+			buildPhases = (
+				4D8691E82CE155CB0068464A /* Sources */,
+				4D8691E92CE155CB0068464A /* Frameworks */,
+				4D8691EA2CE155CB0068464A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8691EE2CE155CB0068464A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4D8691EF2CE155CB0068464A /* Xcode-PlantUMLUITests */,
+			);
+			name = "Xcode-PlantUMLUITests";
+			packageProductDependencies = (
+			);
+			productName = "Xcode-PlantUMLUITests";
+			productReference = 4D8691EC2CE155CB0068464A /* Xcode-PlantUMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8691C92CE155CA0068464A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4D8691D02CE155CA0068464A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4D8691E12CE155CB0068464A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4D8691D02CE155CA0068464A;
+					};
+					4D8691EB2CE155CB0068464A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4D8691D02CE155CA0068464A;
+					};
+				};
+			};
+			buildConfigurationList = 4D8691CC2CE155CA0068464A /* Build configuration list for PBXProject "Xcode-PlantUML" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8691C82CE155CA0068464A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4D8691D22CE155CA0068464A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8691D02CE155CA0068464A /* Xcode-PlantUML */,
+				4D8691E12CE155CB0068464A /* Xcode-PlantUMLTests */,
+				4D8691EB2CE155CB0068464A /* Xcode-PlantUMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8691CF2CE155CA0068464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691E02CE155CB0068464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691EA2CE155CB0068464A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8691CD2CE155CA0068464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691DE2CE155CB0068464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8691E82CE155CB0068464A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D8691E42CE155CB0068464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8691D02CE155CA0068464A /* Xcode-PlantUML */;
+			targetProxy = 4D8691E32CE155CB0068464A /* PBXContainerItemProxy */;
+		};
+		4D8691EE2CE155CB0068464A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8691D02CE155CA0068464A /* Xcode-PlantUML */;
+			targetProxy = 4D8691ED2CE155CB0068464A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D8691F42CE155CB0068464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D8691F52CE155CB0068464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4D8691F72CE155CB0068464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xcode-PlantUML/Xcode_PlantUML.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xcode-PlantUML/Preview Content\"";
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D8691F82CE155CB0068464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xcode-PlantUML/Xcode_PlantUML.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xcode-PlantUML/Preview Content\"";
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4D8691FA2CE155CB0068464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xcode-PlantUML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xcode-PlantUML";
+			};
+			name = Debug;
+		};
+		4D8691FB2CE155CB0068464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xcode-PlantUML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xcode-PlantUML";
+			};
+			name = Release;
+		};
+		4D8691FD2CE155CB0068464A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xcode-PlantUML";
+			};
+			name = Debug;
+		};
+		4D8691FE2CE155CB0068464A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9HZ2QY6GJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.savva-shuliatev.Xcode-PlantUMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xcode-PlantUML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8691CC2CE155CA0068464A /* Build configuration list for PBXProject "Xcode-PlantUML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8691F42CE155CB0068464A /* Debug */,
+				4D8691F52CE155CB0068464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8691F62CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8691F72CE155CB0068464A /* Debug */,
+				4D8691F82CE155CB0068464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8691F92CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8691FA2CE155CB0068464A /* Debug */,
+				4D8691FB2CE155CB0068464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8691FC2CE155CB0068464A /* Build configuration list for PBXNativeTarget "Xcode-PlantUMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8691FD2CE155CB0068464A /* Debug */,
+				4D8691FE2CE155CB0068464A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D8691C92CE155CA0068464A /* Project object */;
+}
