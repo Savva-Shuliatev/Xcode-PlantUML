@@ -2,32 +2,30 @@
 //  Xcode_PlantUMLUITestsLaunchTests.swift
 //  Xcode-PlantUMLUITests
 //
-//  Created by Savva Shuliatev on 10.11.2024.
+//  Copyright (c) 2024 Savva Shuliatev
+//  This code is covered by the MIT License.
 //
 
 import XCTest
 
 final class Xcode_PlantUMLUITestsLaunchTests: XCTestCase {
 
-    override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
-    }
+  override class var runsForEachTargetApplicationUIConfiguration: Bool {
+    true
+  }
 
-    override func setUpWithError() throws {
-        continueAfterFailure = false
-    }
+  override func setUpWithError() throws {
+    continueAfterFailure = false
+  }
 
-    @MainActor
-    func testLaunch() throws {
-        let app = XCUIApplication()
-        app.launch()
+  @MainActor
+  func testLaunch() throws {
+    let app = XCUIApplication()
+    app.launch()
 
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
-        let attachment = XCTAttachment(screenshot: app.screenshot())
-        attachment.name = "Launch Screen"
-        attachment.lifetime = .keepAlways
-        add(attachment)
-    }
+    let attachment = XCTAttachment(screenshot: app.screenshot())
+    attachment.name = "Launch Screen"
+    attachment.lifetime = .keepAlways
+    add(attachment)
+  }
 }
