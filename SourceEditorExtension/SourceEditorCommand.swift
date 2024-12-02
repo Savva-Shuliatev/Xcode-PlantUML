@@ -23,3 +23,6 @@ final class SourceEditorCommand: NSObject, XCSourceEditorCommand {
   }
 
 }
+
+/// Maybe use NSUserAppleScriptTask:
+/// let script = try! NSUserAppleScriptTask(url: URL(string: "")!)
